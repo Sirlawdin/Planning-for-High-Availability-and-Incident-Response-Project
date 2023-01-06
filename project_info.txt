@@ -1,0 +1,22 @@
+# us-east-1
+"ImageId": "ami-0560b6c574dd8e019"
+
+#  us-east-2
+"ImageId": "ami-03d757dc089d5fc0d" 
+
+# us-west-1
+"ImageId": "ami-078dbfe45a86930f4" 
+
+account_id = "067838072790"
+caller_arn = "arn:aws:iam::067838072790:user/project2"
+caller_user = "AIDAQ7S3W27LPKILQV6NN"
+private_subnet_ids = [
+  "subnet-033f59593328661cf",
+  "subnet-0c697196a3cffb433",
+]
+public_subnet_ids = [
+  "subnet-03502b43fcbfadd4d",
+  "subnet-0f9fb331aee08bf87",
+]
+vpc_id = "vpc-0d8a870d36a997dbd"
+
