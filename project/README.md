@@ -124,6 +124,7 @@ sudo systemctl restart nginx
     `helm install prometheus prometheus-community/kube-prometheus-stack -f "values.yaml" --namespace monitoring`
 
 <!-- `helm install prometheus prometheus-community/kube-prometheus-stack --namespace monitoring` -->
+helm upgrade --install my-release prometheus-community/kube-prometheus-stack --version 16.1.2 --values values.yaml
 
 <!-- 10. Port forward
 `kubectl -n monitoring  port-forward svc/prometheus-grafana  8888:80`
